@@ -1,8 +1,8 @@
 import pygame
 from gws import *
 pygame.mixer.init()
-#pygame.mixer.music.load('/home/share/MC天佑 - 又.mp3')
-#pygame.mixer.music.play()
+pygame.mixer.music.load('./a01.mp3')
+pygame.mixer.music.play()
 class PlaneGame(object):
     """飞机大战主游戏类"""
     # 初始化方法
